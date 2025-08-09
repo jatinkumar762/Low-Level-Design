@@ -1,4 +1,4 @@
-### 📟 Please give a star 🌟 to the repository if it helped you.
+### 📟 Please give a star 🌟 to the repository if it helped you
 
 </br>
 
@@ -44,6 +44,7 @@
   8. [Iterator](./Behavioral%20Pattern/Iterator.md)
 
 #### References
+
   1. [Java Design Patterns - Example Tutorial](https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial)
   2. [Software Design Patterns Tutorial](https://www.geeksforgeeks.org/software-design-patterns/)
 
@@ -55,12 +56,11 @@
 
 ---
 
-- [ParkingLot](./Low%20Level%20Design%20Probelms/ParkingLot/)
-- [Chess Game](./Low%20Level%20Design%20Probelms/ChessLLD/)
-- [SnakeAndLadder Game](./Low%20Level%20Design%20Probelms/SnakeAndLadder/)
-- [SplitWise](./Low%20Level%20Design%20Probelms/SplitWise/)
-- [TicTacToe Game](./Low%20Level%20Design%20Probelms/TicTacToe/)
-- [Elevator Design](./Low%20Level%20Design%20Probelms/ElevatorLLDProblem/)
-- [Library Management](./Low%20Level%20Design%20Probelms/LibraryManagement/)
-- [Rate Limiter App](./Low%20Level%20Design%20Probelms/RateLimiterApp/)
-
+* [ParkingLot](./Low%20Level%20Design%20Probelms/ParkingLot/)
+* [Chess Game](./Low%20Level%20Design%20Probelms/ChessLLD/)
+* [SnakeAndLadder Game](./Low%20Level%20Design%20Probelms/SnakeAndLadder/)
+* [SplitWise](./Low%20Level%20Design%20Probelms/SplitWise/)
+* [TicTacToe Game](./Low%20Level%20Design%20Probelms/TicTacToe/)
+* [Elevator Design](./Low%20Level%20Design%20Probelms/ElevatorLLDProblem/)
+* [Library Management](./Low%20Level%20Design%20Probelms/LibraryManagement/)
+* [Rate Limiter App](./Low%20Level%20Design%20Probelms/RateLimiterApp/)

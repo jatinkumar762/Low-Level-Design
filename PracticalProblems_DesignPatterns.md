@@ -143,94 +143,99 @@ Here are Low-Level Design (LLD) problem examples or links for each design patter
 ---
 
 ### **Creational Patterns**
+
 1. **Factory Method**  
-   - **Problem**: Design a payment system where you need to create different payment methods (CreditCard, PayPal, UPI).  
-   - **Example**: [Payment Gateway System](https://www.geeksforgeeks.org/design-payment-gateway-system/)  
+   * **Problem**: Design a payment system where you need to create different payment methods (CreditCard, PayPal, UPI).  
+   * **Example**: [Payment Gateway System](https://www.geeksforgeeks.org/design-payment-gateway-system/)  
 
 2. **Abstract Factory**  
-   - **Problem**: Design a UI toolkit that supports multiple themes (Light & Dark) with consistent buttons, text fields, and dialogs.  
-   - **Example**: [Cross-Platform UI Components](https://refactoring.guru/design-patterns/abstract-factory)  
+   * **Problem**: Design a UI toolkit that supports multiple themes (Light & Dark) with consistent buttons, text fields, and dialogs.  
+   * **Example**: [Cross-Platform UI Components](https://refactoring.guru/design-patterns/abstract-factory)  
 
 3. **Builder**  
-   - **Problem**: Design a complex object like a `Computer` with optional components (RAM, SSD, GPU).  
-   - **Example**: [Building a Custom Computer](https://www.baeldung.com/java-builder-pattern-freebuilder)  
+   * **Problem**: Design a complex object like a `Computer` with optional components (RAM, SSD, GPU).  
+   * **Example**: [Building a Custom Computer](https://www.baeldung.com/java-builder-pattern-freebuilder)  
 
 4. **Prototype**  
-   - **Problem**: Design a game where enemies (e.g., monsters) are cloned instead of created from scratch.  
-   - **Example**: [Game Character Cloning](https://refactoring.guru/design-patterns/prototype)  
+   * **Problem**: Design a game where enemies (e.g., monsters) are cloned instead of created from scratch.  
+   * **Example**: [Game Character Cloning](https://refactoring.guru/design-patterns/prototype)  
 
 5. **Singleton**  
-   - **Problem**: Design a logging system where only one instance should write logs to a file.  
-   - **Example**: [Logger Class Implementation](https://www.geeksforgeeks.org/singleton-design-pattern/)  
+   * **Problem**: Design a logging system where only one instance should write logs to a file.  
+   * **Example**: [Logger Class Implementation](https://www.geeksforgeeks.org/singleton-design-pattern/)  
 
 ---
 
 ### **Structural Patterns**
+
 6. **Adapter**  
-   - **Problem**: Integrate a legacy `XMLData` interface with a new `JSONProcessor`.  
-   - **Example**: [XML to JSON Adapter](https://refactoring.guru/design-patterns/adapter)  
+   * **Problem**: Integrate a legacy `XMLData` interface with a new `JSONProcessor`.  
+   * **Example**: [XML to JSON Adapter](https://refactoring.guru/design-patterns/adapter)  
 
 7. **Bridge**  
-   - **Problem**: Design a drawing API that works across different rendering engines (Vector vs. Raster).  
-   - **Example**: [Shape Rendering System](https://www.journaldev.com/1491/bridge-design-pattern-java)  
+   * **Problem**: Design a drawing API that works across different rendering engines (Vector vs. Raster).  
+   * **Example**: [Shape Rendering System](https://www.journaldev.com/1491/bridge-design-pattern-java)  
 
 8. **Composite**  
-   - **Problem**: Design a file system where directories and files are treated uniformly.  
-   - **Example**: [File System Hierarchy](https://refactoring.guru/design-patterns/composite)  
+   * **Problem**: Design a file system where directories and files are treated uniformly.  
+   * **Example**: [File System Hierarchy](https://refactoring.guru/design-patterns/composite)  
 
 9. **Decorator**  
-   - **Problem**: Add toppings (milk, sugar) to a base coffee dynamically.  
-   - **Example**: [Coffee Customization](https://www.geeksforgeeks.org/decorator-pattern/)  
+   * **Problem**: Add toppings (milk, sugar) to a base coffee dynamically.  
+   * **Example**: [Coffee Customization](https://www.geeksforgeeks.org/decorator-pattern/)  
 
 10. **Facade**  
-    - **Problem**: Simplify a complex home theater system (TV, Sound, Lights) with a single remote.  
-    - **Example**: [Home Theater System](https://refactoring.guru/design-patterns/facade)  
+    * **Problem**: Simplify a complex home theater system (TV, Sound, Lights) with a single remote.  
+    * **Example**: [Home Theater System](https://refactoring.guru/design-patterns/facade)  
 
 11. **Flyweight**  
-    - **Problem**: Optimize memory usage in a text editor by reusing character objects.  
-    - **Example**: [Text Formatting](https://www.geeksforgeeks.org/flyweight-design-pattern/)  
+    * **Problem**: Optimize memory usage in a text editor by reusing character objects.  
+    * **Example**: [Text Formatting](https://www.geeksforgeeks.org/flyweight-design-pattern/)  
 
 12. **Proxy**  
-    - **Problem**: Implement lazy loading for heavy database queries.  
-    - **Example**: [Virtual Proxy for Images](https://refactoring.guru/design-patterns/proxy)  
+    * **Problem**: Implement lazy loading for heavy database queries.  
+    * **Example**: [Virtual Proxy for Images](https://refactoring.guru/design-patterns/proxy)  
 
 ---
 
 ### **Behavioral Patterns**
+
 13. **Chain of Responsibility**  
-    - **Problem**: Design a logging system where logs are handled by different loggers (INFO → DEBUG → ERROR).  
-    - **Example**: [Multi-Level Logging](https://refactoring.guru/design-patterns/chain-of-responsibility)  
+    * **Problem**: Design a logging system where logs are handled by different loggers (INFO → DEBUG → ERROR).  
+    * **Example**: [Multi-Level Logging](https://refactoring.guru/design-patterns/chain-of-responsibility)  
 
 14. **Observer**  
-    - **Problem**: Implement a stock market notifier that alerts subscribers when prices change.  
-    - **Example**: [Stock Price Updates](https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/)  
+    * **Problem**: Implement a stock market notifier that alerts subscribers when prices change.  
+    * **Example**: [Stock Price Updates](https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/)  
 
 15. **Strategy**  
-    - **Problem**: Design a navigation app with multiple route strategies (Fastest, Cheapest, Scenic).  
-    - **Example**: [Route Planning](https://refactoring.guru/design-patterns/strategy)  
+    * **Problem**: Design a navigation app with multiple route strategies (Fastest, Cheapest, Scenic).  
+    * **Example**: [Route Planning](https://refactoring.guru/design-patterns/strategy)  
 
 16. **Template Method**  
-    - **Problem**: Define a skeleton for building houses (foundation → walls → roof) with customizable steps.  
-    - **Example**: [House Construction Process](https://www.javatpoint.com/template-method-pattern)  
+    * **Problem**: Define a skeleton for building houses (foundation → walls → roof) with customizable steps.  
+    * **Example**: [House Construction Process](https://www.javatpoint.com/template-method-pattern)  
 
 17. **State**  
-    - **Problem**: Implement a vending machine with states (Idle, Processing, Dispensing).  
-    - **Example**: [Vending Machine State Management](https://refactoring.guru/design-patterns/state)  
+    * **Problem**: Implement a vending machine with states (Idle, Processing, Dispensing).  
+    * **Example**: [Vending Machine State Management](https://refactoring.guru/design-patterns/state)  
 
 18. **Command**  
-    - **Problem**: Design a remote control for smart home devices (undo/redo operations).  
-    - **Example**: [Remote Control for Lights/Fans](https://www.geeksforgeeks.org/command-pattern/)  
+    * **Problem**: Design a remote control for smart home devices (undo/redo operations).  
+    * **Example**: [Remote Control for Lights/Fans](https://www.geeksforgeeks.org/command-pattern/)  
 
 19. **Mediator**  
-    - **Problem**: Implement a chat room where users communicate via a central mediator.  
-    - **Example**: [Chat Application](https://refactoring.guru/design-patterns/mediator)  
+    * **Problem**: Implement a chat room where users communicate via a central mediator.  
+    * **Example**: [Chat Application](https://refactoring.guru/design-patterns/mediator)  
 
 20. **Iterator**  
-    - **Problem**: Traverse a custom collection (e.g., a playlist) without exposing its internal structure.  
-    - **Example**: [Music Playlist Iterator](https://www.geeksforgeeks.org/iterator-pattern/)  
+    * **Problem**: Traverse a custom collection (e.g., a playlist) without exposing its internal structure.  
+    * **Example**: [Music Playlist Iterator](https://www.geeksforgeeks.org/iterator-pattern/)  
 
 ---
 
 ### **Additional Resources**
-- [Refactoring Guru](https://refactoring.guru/design-patterns/) (Interactive examples)  
-- [SourceMaking](https://sourcemaking.com/design_patterns) (Detailed case studies)  
+
+* [Refactoring Guru](https://refactoring.guru/design-patterns/) (Interactive examples)  
+
+* [SourceMaking](https://sourcemaking.com/design_patterns) (Detailed case studies)  
