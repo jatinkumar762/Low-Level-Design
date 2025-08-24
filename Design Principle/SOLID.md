@@ -1,7 +1,7 @@
 
 #### SOLID Design Principles
 
-1. [Single Responsiblity Principle](./SingleResponsiblityPrinciple.md)
+1. [Single Responsibility Principle](./SingleResponsibilityPrinciple.md)
 2. [Open-Closed Principle](./Open-ClosedPrinciple.md)
 3. [Liskov Substitution Principle](./LiskovSubstitutionPrinciple.md)
 4. [Interface Segregation Principle](./InterfaceSegregationPrinciple.md)
