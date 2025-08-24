@@ -1,11 +1,7 @@
-* Problems solved by Builder Design Pattern
-* Implementation
-* Summary (Pros and Cons)
-
 ### Problems solved by Builder Design Pattern
 
 * Creation of complex objects (some properties are mandatory or optional)
-* We don't need to creeate mutiple constructors for different combination of properties
+* We don't need to create multiple constructors for different combination of properties
 * Helps with immutable classes (Define object which once created, never change their value)
 * Less need for exposing setters, if we use setter method then object will be mutable
 
@@ -160,7 +156,7 @@ public class MobileWithSetters {
 
 #### Pros
 * Good way to handle complexity
-* Easy to implement, we have to just use innner static class
+* Easy to implement, we have to just use inner static class
 
 #### Cons
 * Class instance returned is immutable
