@@ -2,7 +2,7 @@
 
 * When we want to enhance behavior of our existing object dynamically as and when required
 * Decorator wraps an object within itself and provides same interface as the wrapped object. So the client of original object does not need to change.
-* A decorator provides alternative to subclassing for extending functionality of existing classes.
+* A decorator provides alternative to sub-classing for extending functionality of existing classes.
 
 #### Key Concepts:
 
